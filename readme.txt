@@ -19,7 +19,7 @@ You may want to set up replication or use a different method for getting your cl
 You will initially need to set up a database for the destination. The script will drop any tables that exist
 and need updating.
 
-Edit the values at the top of the dblive2stage.sh file to reflect your environments settings.
+Edit the values at the top of the dblive2stage.sh file to reflect your environment's settings.
 Call the dblive2stage.sh script from the command line to initiate the database clone and rename.
 N.B no warnings or confirmations are presented to you *test before you use it for real*.
 
@@ -27,3 +27,5 @@ If you can't connect to your database or php isn't being run with the correct se
 alter the line starting "php" in "dblive2stage.sh" to include the location of your php.ini file:
 
 -c /path/to/your/php.ini
+
+The php file is called from the command line and not through a webserver.

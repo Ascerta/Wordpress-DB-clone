@@ -1,4 +1,3 @@
-
 === Warning ===
 Important! This script will overwrite and modify your database. Use with extreme care. Always test
 in a safe environment properly. These scripts come with no support at all. If you loose your data we
@@ -8,7 +7,7 @@ take no responsibility.
 These scripts are intended to allow you to clone a live Wordpress database to a development or staging 
 environment. There are two stages:
 Firstly, a dump is taken of the live database and imported into the development database
-Secondly, a search and replace is carried out on the dev/staging database to that the hostnames are correct 
+Secondly, a search and replace is carried out on the dev/staging database so that the hostnames are correct 
 for your dev environment.
 
 **Only databases are cloned. Files and directories will need to be kept in sync via other means.**
